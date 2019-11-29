@@ -5,7 +5,8 @@
   "author": "imeepos <1037483576@qq.com>",
   "homepage": "https://github.com/meepobrother/nger-sso/tree/master/packages/domain#readme",
   "license": "ISC",
-  "main": "lib/domain.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
