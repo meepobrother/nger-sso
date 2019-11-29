@@ -6,5 +6,9 @@
             "@nger/sso.api": [],
             "@nger/sso.domain": []
         }
-    }
+    },
+    "include": [
+        "packages",
+        "lib"
+    ]
 }
