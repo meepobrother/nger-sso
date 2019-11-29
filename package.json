@@ -1,6 +1,9 @@
 {
 	"name": "root",
-	"private": true,
+    "private": true,
+    "scripts": {
+        "start": "ts-node -r tsconfig-paths/register packages/main.ts"
+    },
 	"devDependencies": {
 		"lerna": "^3.13.1"
 	},
