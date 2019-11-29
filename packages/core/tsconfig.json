@@ -2,9 +2,14 @@
     "extends": "../../tsconfig.json",
     "compileOnSave": true,
     "compilerOptions": {
+        "baseUrl": ".",
         "paths": {
-            "@nger/sso.api": [],
-            "@nger/sso.domain": []
+            "@nger/sso.api": [
+                "packages/api/lib/index.ts"
+            ],
+            "@nger/sso.domain": [
+                "packages/domain/lib/index.ts"
+            ]
         }
     },
     "include": [
