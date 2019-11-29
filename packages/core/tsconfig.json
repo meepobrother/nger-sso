@@ -1,0 +1,10 @@
+{
+    "extends": "../../tsconfig.json",
+    "compileOnSave": true,
+    "compilerOptions": {
+        "paths": {
+            "@nger/sso.api": [],
+            "@nger/sso.domain": []
+        }
+    }
+}
